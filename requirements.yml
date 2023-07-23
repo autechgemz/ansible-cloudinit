@@ -1,65 +1,65 @@
 
-- name: unattended_upgrades
+- name: autechgemz.unattended_upgrades
   src: https://github.com/autechgemz/ansible-role-unattended_upgrades.git
   version: 1.0.1
 
-- name: needrestart
+- name: autechgemz.needrestart
   src: https://github.com/autechgemz/ansible-role-needrestart.git
   version: 1.0.1
 
-- name: logrotate
+- name: autechgemz.logrotate
   src: https://github.com/autechgemz/ansible-role-logrotate.git
   version: 1.0.1
 
-- name: sysstat
+- name: autechgemz.sysstat
   src: https://github.com/autechgemz/ansible-role-sysstat.git
   version: 1.0.0
 
-- name: journald
+- name: autechgemz.journald
   src: https://github.com/autechgemz/ansible-role-journald.git
   version: 1.0.0
 
-- name: sshd
+- name: autechgemz.sshd
   src: https://github.com/autechgemz/ansible-role-sshd.git
   version: develop
   #version: 1.1.0
 
-- name: sysctl
+- name: autechgemz.sysctl
   src: https://github.com/autechgemz/ansible-role-sysctl.git
   version: 1.0.1
 
-- name: sudo
+- name: autechgemz.sudo
   src: https://github.com/autechgemz/ansible-role-sudo.git
   version: 1.0.1
 
-- name: sshguard
+- name: autechgemz.sshguard
   src: https://github.com/autechgemz/ansible-role-sshguard.git
   version: 1.0.1
 
-- name: timezone
+- name: autechgemz.timezone
   src: https://github.com/autechgemz/ansible-role-timezone.git
   version: 1.0.0
 
-- name: rsyslog
+- name: autechgemz.rsyslog
   src: https://github.com/autechgemz/ansible-role-rsyslog.git
   version: 1.0.1
 
-- name: tcpd
+- name: autechgemz.tcpd
   src: https://github.com/autechgemz/ansible-role-tcpd.git
   version: 1.0.1
 
-- name: auditd
+- name: autechgemz.auditd
   src: https://github.com/autechgemz/ansible-role-auditd.git
   version: 1.0.1
 
-- name: chronyd
+- name: autechgemz.chronyd
   src: https://github.com/autechgemz/ansible-role-chronyd.git
   version: 1.0.1
 
-- name: ufw
+- name: autechgemz.ufw
   src: https://github.com/autechgemz/ansible-role-ufw.git
   version: 1.0.0
 
-- name: apparmor
+- name: autechgemz.apparmor
   src: https://github.com/autechgemz/ansible-role-apparmor.git
   version: 1.0.0
