@@ -8,8 +8,8 @@ sshd_server_config_options:
   PasswordAuthentication: 'no'
   PermitEmptyPasswords: 'no'
   ChallengeResponseAuthentication: 'no'
-  UsePAM: 'no'
-  UseDNS: 'no'
+  UsePAM: 'yes'
+  UseDNS: 'yes'
   AcceptEnv:
     - 'LANG LC_*'
   SyslogFacility: 'AUTHPRIV'
