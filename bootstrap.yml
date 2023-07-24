@@ -1,8 +1,0 @@
----
-
-- hosts: localhost
-  tasks:
-    - name: Install collections and roles
-      community.general.ansible_galaxy_install:
-        type: both
-        requirements_file: requirements.yml

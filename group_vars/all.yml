@@ -2,9 +2,6 @@
 
 timezone: Asia/Tokyo
 
-unattended_upgrades_service_ensure: 'stopped'
-unattended_upgrades_service_enable: false
-
 sshd_server_config_options:
   Protocol: '2'
   PermitRootLogin: 'no'
