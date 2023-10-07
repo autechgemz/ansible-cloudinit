@@ -1,6 +1,6 @@
 ---
 
-- hosts: localhost
+- hosts: all
   roles:
     - autechgemz.timezone
     - autechgemz.chronyd
@@ -10,11 +10,11 @@
     - autechgemz.rsyslog
     - autechgemz.logrotate
     - autechgemz.sudo
-    - autechgemz.sysstat
     - autechgemz.sysctl
     - autechgemz.sshd
     - autechgemz.sshguard
     - autechgemz.tcpd
     - autechgemz.ufw
+    - autechgemz.sysstat
     - autechgemz.auditd
     - autechgemz.apparmor
