@@ -15,6 +15,5 @@
     - autechgemz.sshguard
     - autechgemz.tcpd
     - autechgemz.ufw
-    - autechgemz.sysstat
     - autechgemz.auditd
     - autechgemz.apparmor
