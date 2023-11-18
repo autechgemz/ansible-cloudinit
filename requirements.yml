@@ -61,4 +61,4 @@
 
 - name: autechgemz.apparmor
   src: https://github.com/autechgemz/ansible-role-apparmor.git
-  version: 1.0.0
+  version: develop
