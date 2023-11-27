@@ -4,6 +4,7 @@ timezone: Asia/Tokyo
 
 chronyd_server_config_options:
   driftfile: /var/lib/chrony/chrony.drift
+  pool: ""
   server:
     - '169.254.169.123 prefer iburst'
   logdir: /var/log/chrony
