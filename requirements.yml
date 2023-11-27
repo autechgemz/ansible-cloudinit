@@ -53,7 +53,7 @@
 
 - name: autechgemz.chronyd
   src: https://github.com/autechgemz/ansible-role-chronyd.git
-  version: 1.0.1
+  version: 1.1.1
 
 - name: autechgemz.ufw
   src: https://github.com/autechgemz/ansible-role-ufw.git
